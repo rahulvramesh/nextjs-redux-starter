@@ -1,0 +1,31 @@
+.headerBar {
+  height: 68px;
+  background-color: #ffffff;
+  // padding: 10px;
+}
+
+.logo {
+  width: 60%;
+  float: left;
+}
+
+.navbarNav {
+  font-family: GothamPro;
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 0.78px;
+  text-align: right;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbarNavItem {
+  color: #000000;
+}
+
+.navLinkPad {
+  margin-left: 60px;
+}

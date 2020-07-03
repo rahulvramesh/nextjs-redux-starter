@@ -1,0 +1,64 @@
+@import "../public/static/fonts/gotham/gotham.css";
+
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+html {
+  border: 0px;
+  margin: 0px;
+}
+
+body {
+  border: 0px;
+  margin: 0px;
+  font-family: GothamPro;
+}
+
+$theme-colors: (
+  "info": green,
+  "danger": teal,
+  "baground-primary": #fff,
+);
+
+// colors
+$link-primary: #000000;
+
+.navbar {
+  height: 68px;
+}
+
+.nav-link {
+  color: $link-primary !important;
+}
+
+.nav-link-pad {
+  margin-left: 26px;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 1px;
+  font-family: FontAwesome;
+  content: "\f078";
+  border-top: 0em solid;
+  border-right: 0em solid transparent;
+  border-bottom: 0;
+  border-left: 0em solid transparent;
+}
+
+.btn-flat {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #41b885;
+  color: #ffffff;
+}
+
+.row {
+  width: 100%;
+}

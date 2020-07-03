@@ -1,1 +1,3 @@
-export default props => <h1>About</h1>
+import HomePage from "../src/containers/HomePage";
+
+export default (props) => <HomePage />;
