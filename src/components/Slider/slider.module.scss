@@ -1,0 +1,59 @@
+.slider {
+  height: 200px;
+}
+
+.userHeader {
+  font-family: GothamPro;
+  font-size: 19px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #202020;
+  height: 40px;
+  width: 300px;
+  text-transform: uppercase;
+}
+
+.userDescription {
+  font-family: GothamPro;
+  font-size: 17px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #41b885;
+  height: 40px;
+  width: 300px;
+}
+.testimonialContent {
+  font-family: GothamPro;
+  font-size: 18px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #4f4f4f;
+  width: 600px;
+}
+
+.quote {
+  font-family: GothamPro;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #40b885;
+}
+
+.dotSlider {
+  width: 3px;
+  height: 3px;
+  background-color: #41b885;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}

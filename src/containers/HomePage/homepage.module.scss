@@ -1,5 +1,4 @@
 .hero {
-  width: 100%;
   position: fixed;
   grid-row: 1/1;
   grid-column: 1/1;
@@ -7,8 +6,10 @@
 }
 
 .heroTop {
-  height: 78vh;
-  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-attachment: scroll;
+  background-image: url("https://ghstatic.greenhouse.co/img/bg-questionnaire.svg");
 }
 
 .heroTextArea {
@@ -43,4 +44,343 @@
   background-color: #41b885;
   color: #ffffff;
   line-height: 50px;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.customh2 {
+  font-family: GothamPro;
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #202020;
+}
+
+.pCustomHeaderContent {
+  width: 600px;
+  font-family: GothamPro;
+  font-size: 16px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #202020;
+}
+
+.flowHeader {
+  width: 292px;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  font-family: GothamPro;
+  margin-top: 20px;
+}
+
+.flowPara {
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  font-family: GothamPro;
+  margin-top: 20px;
+}
+
+.vl {
+  border-left: 1px solid #edefef;
+  height: 250px;
+  position: absolute;
+  /* margin-left: -3px; */
+  /* top: 0; */
+  right: 0px;
+  bottom: 0px;
+  vertical-align: middle;
+}
+
+.inquiriesImage {
+  width: 600px;
+}
+
+.labelTechDriven {
+  font-family: GothamPro;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #41b885;
+  text-transform: uppercase;
+}
+
+.workflowHeader {
+  font-family: GothamPro;
+  font-size: 32px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #202020;
+  margin-top: 20px;
+}
+
+.workflowPDescription {
+  font-family: GothamPro;
+  font-size: 16px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #202020;
+  margin-top: 20px;
+}
+
+.leafBullet {
+  list-style-image: url("https://ghstatic.greenhouse.co/live-assets/leaf-bulllet.svg");
+  font-family: GothamPro;
+  font-size: 14px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  text-align: left;
+  color: #202020;
+}
+.clinetUse {
+  height: 1100px;
+  background-size: contain;
+  background-attachment: scroll;
+  background-image: url("https://ghstatic.greenhouse.co/live-assets/bg-wave-medium.svg");
+  background-repeat: no-repeat;
+}
+
+.clientCard {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 0 rgba(32, 32, 32, 0.2);
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.clientHeader {
+  font-family: GothamPro;
+  font-size: 32px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #202020;
+  margin-top: 25px;
+}
+
+.whyClinet {
+  font-family: GothamPro;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #202020;
+  margin-top: 35px;
+}
+
+.whyClinetP {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  font-family: GothamPro;
+  font-weight: 100;
+}
+
+.Oval {
+  width: 40px;
+  height: 40px;
+  background-color: #41b885;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  margin-right: auto;
+  line-height: 41px;
+  font-family: GothamPro;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.hl {
+  border-top: 1px solid #edefef;
+  height: 20px;
+  width: 43%;
+  position: absolute;
+  /* margin-left: -3px; */
+  /* top: 0; */
+  right: 0px;
+  bottom: 0px;
+  vertical-align: middle;
+}
+
+.gridContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+// .h50 {
+//   height: 150px;
+// }
+
+.howItworksHeader {
+  font-family: GothamPro;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #202020;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.howItworksHeaderDescription {
+  font-family: GothamPro;
+  font-size: 16px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8f8f8f;
+  margin-top: 20px;
+}
+
+.testimonials {
+  height: 600px;
+  background-size: contain;
+  background-attachment: scroll;
+  background-image: url("https://ghstatic.greenhouse.co/live-assets/bg-wave-testimonial.svg");
+  background-repeat: no-repeat;
+}
+
+.leafeIconTop {
+  width: 35px;
+  position: absolute;
+  left: 100px;
+  top: -100px;
+}
+
+.faqP {
+  width: 600px;
+  font-family: GothamPro;
+  font-size: 16px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #202020;
+}
+
+.faqContent {
+  font-family: GothamPro;
+}
+
+.faqContentStrong {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.faqContentStrongP {
+  margin-top: 15px;
+  font-weight: 100;
+  font-size: 16px;
+  width: 500px;
+}
+.footerBg {
+  height: 700px;
+  margin-top: 250px;
+  background-size: cover;
+  background-attachment: scroll;
+  background-image: url("https://ghstatic.greenhouse.co/live-assets/bg-wave-end-long.svg");
+  background-repeat: no-repeat;
+}
+
+.gridContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% auto;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.gridTextContainer {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftColumn {
+  width: 50%;
+  float: left;
+  height: 700px;
+}
+
+.rightColumn {
+  width: 50%;
+  float: right;
+  overflow: hidden;
+}
+
+.leftColumnText {
+  width: 80%;
+  float: right;
+  margin-top: 150px;
+}
+
+.cardFooter {
+  margin-top: -60px;
+  border-radius: 10px;
+  height: 450px;
+
+  box-shadow: 0 0 10px 0 rgba(32, 32, 32, 0.2);
+  background-color: #ffffff;
+}
+
+.earnP {
+  width: 350px;
+  font-family: GothamPro;
+  font-size: 16px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #202020;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.singupText {
+  font-family: GothamPro;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: center;
+  color: #202020;
 }
